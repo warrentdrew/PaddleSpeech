@@ -269,7 +269,7 @@ def main():
         paddle.set_device("cpu")
     else:
         print(
-            "one of ngpu, nxpu, nnpu or nmlu should be greater than 0, others equal to 0"
+            "one of ngpu, nxpu, nnpu or nmlu should be greater than 0 or all of them equal to 0"
         )
 
     evaluate(args)
